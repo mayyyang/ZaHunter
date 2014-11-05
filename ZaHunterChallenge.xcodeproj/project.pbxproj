@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		FB367FA31A0AE39D0034D786 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB367FA21A0AE39D0034D786 /* main.m */; };
 		FB367FA61A0AE39D0034D786 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB367FA51A0AE39D0034D786 /* AppDelegate.m */; };
-		FB367FA91A0AE39D0034D786 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB367FA81A0AE39D0034D786 /* ViewController.m */; };
+		FB367FA91A0AE39D0034D786 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB367FA81A0AE39D0034D786 /* RootViewController.m */; };
 		FB367FAC1A0AE39D0034D786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB367FAA1A0AE39D0034D786 /* Main.storyboard */; };
 		FB367FAE1A0AE39D0034D786 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB367FAD1A0AE39D0034D786 /* Images.xcassets */; };
 		FB367FB11A0AE39D0034D786 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB367FAF1A0AE39D0034D786 /* LaunchScreen.xib */; };
 		FB367FBD1A0AE39D0034D786 /* ZaHunterChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB367FBC1A0AE39D0034D786 /* ZaHunterChallengeTests.m */; };
+		FB367FC81A0AE62A0034D786 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB367FC71A0AE62A0034D786 /* ResultsViewController.m */; };
+		FB367FCB1A0AE7970034D786 /* Pizzera.m in Sources */ = {isa = PBXBuildFile; fileRef = FB367FCA1A0AE7970034D786 /* Pizzera.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		FB367FA21A0AE39D0034D786 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB367FA41A0AE39D0034D786 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB367FA51A0AE39D0034D786 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB367FA71A0AE39D0034D786 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB367FA81A0AE39D0034D786 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB367FA71A0AE39D0034D786 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FB367FA81A0AE39D0034D786 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		FB367FAB1A0AE39D0034D786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB367FAD1A0AE39D0034D786 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FB367FB01A0AE39D0034D786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FB367FB61A0AE39D0034D786 /* ZaHunterChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB367FBB1A0AE39D0034D786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB367FBC1A0AE39D0034D786 /* ZaHunterChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterChallengeTests.m; sourceTree = "<group>"; };
+		FB367FC61A0AE62A0034D786 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		FB367FC71A0AE62A0034D786 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		FB367FC91A0AE7970034D786 /* Pizzera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizzera.h; sourceTree = "<group>"; };
+		FB367FCA1A0AE7970034D786 /* Pizzera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizzera.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +89,11 @@
 			children = (
 				FB367FA41A0AE39D0034D786 /* AppDelegate.h */,
 				FB367FA51A0AE39D0034D786 /* AppDelegate.m */,
-				FB367FA71A0AE39D0034D786 /* ViewController.h */,
-				FB367FA81A0AE39D0034D786 /* ViewController.m */,
+				FB367FA71A0AE39D0034D786 /* RootViewController.h */,
+				FB367FA81A0AE39D0034D786 /* RootViewController.m */,
+				FB367FC61A0AE62A0034D786 /* ResultsViewController.h */,
+				FB367FC71A0AE62A0034D786 /* ResultsViewController.m */,
+				FB367FCD1A0AE7AD0034D786 /* Model */,
 				FB367FAA1A0AE39D0034D786 /* Main.storyboard */,
 				FB367FAD1A0AE39D0034D786 /* Images.xcassets */,
 				FB367FAF1A0AE39D0034D786 /* LaunchScreen.xib */,
@@ -117,6 +126,15 @@
 				FB367FBB1A0AE39D0034D786 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB367FCD1A0AE7AD0034D786 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB367FC91A0AE7970034D786 /* Pizzera.h */,
+				FB367FCA1A0AE7970034D786 /* Pizzera.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +237,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB367FA91A0AE39D0034D786 /* ViewController.m in Sources */,
+				FB367FCB1A0AE7970034D786 /* Pizzera.m in Sources */,
+				FB367FA91A0AE39D0034D786 /* RootViewController.m in Sources */,
 				FB367FA61A0AE39D0034D786 /* AppDelegate.m in Sources */,
 				FB367FA31A0AE39D0034D786 /* main.m in Sources */,
+				FB367FC81A0AE62A0034D786 /* ResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
